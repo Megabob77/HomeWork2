@@ -1,11 +1,11 @@
-package Exersice2;
+package Exersice3;
 
-public class Main extends Car{
+public class Main {
     public static void main(String[] args) {
-        Car car = new Car("black");
-        Car car1 = new Car("black",2020);
-        Car car2 = new Car("black",2020,1520);
-        Car car3 = new Car("black",2020,1520,150);
+       Car car = new Car("black");
+       Car car1 = new Car("black",2020);
+       Car car2 = new Car("black",2020,1520);
+       Car car3 = new Car("black",2020,1520,150);
 
         System.out.println(car.color);
         System.out.println();
